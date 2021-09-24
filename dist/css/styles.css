@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #CEE5D0;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+header h1 {
+  font-weight: bold;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  padding: 30px;
+  grid-gap: 5px;
+}
+
+.grid-container .grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  background-color: #F3F0D7;
+  padding: 20px;
+  font-size: 30px;
+  height: 20rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+}
+
+.grid-container .grid-item .grid-image-area {
+  width: 60%;
+  height: 60%;
+  margin: auto;
+}
+
+.grid-container .grid-item .grid-image-area img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+
+.grid-container .grid-item .grid-content-area {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.grid-container .grid-item .grid-content-area .info-area {
+  display: flex;
+  margin: 0.3rem;
+  background-color: #FF7878;
+  border-radius: 1rem;
+  padding: 0 0.5rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.grid-container .grid-item .grid-content-area .info-area .label {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.grid-container .grid-item .grid-content-area .info-area .info {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #E0C097;
+}
+/*# sourceMappingURL=styles.css.map */
